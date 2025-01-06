@@ -11,7 +11,7 @@ function Login() {
   const Login = async (e) => {
     e.preventDefault();
     try {
-      const req = await axios.post("https://kec2024-lrnr.onrender.com//login", {
+      const req = await axios.post("https://kec2024-lrnr.onrender.com/login", {
         email: email,
         password: password,
       });
